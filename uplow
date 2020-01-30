@@ -1,0 +1,10 @@
+a="MsGtRr"
+b=""
+c=""
+for i in range(0,len(a)):
+    if a[i].isupper()==True:
+        b=b+a[i]
+    else:
+        c=c+a[i]
+print(b)
+print(c)
